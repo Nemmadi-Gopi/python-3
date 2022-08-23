@@ -1,0 +1,67 @@
+What is the Git?
+Git is the version control system, which we can be used for souce code and it used to tracking changes in computer files.
+It is generally used for source code management in software development. It is a free and open-source version control system used to handle small to very large project effieciently. 
+Git is used to tracking changes in the source code, enabling multiple developeers to work together on non-linear developement.
+
+There are n number of developers are working in the same project and they are working individula to each other. so they didn't know, what they are writing each other.
+They should came to know when they have starting reviewing the code. to overcome this, Git came into the picture.
+
+Before we cr
+
+Procedure:
+1. We need to create a an account of git and create repository for user who is using.
+2. Once we have created the repository, then ceneral repository will get created and then we push and pull the code with using central repository.
+3. So inside the repoitory we will be creating branches and every user doesn't have access to master/main repositories. user will have only access to branches, not to masters.
+4. we need to clone or pull these repositories, once they have started to work.
+5. Every every developer has to push this code to central repositories by end of the day , then only other persons or co-worked they should know, code to updated or not.
+
+> Before diving deep, let’s explain a scenario before Git:
+        Developers used to submit their codes to the central server without having copies of their own, Any changes made to the source code were unknown to the other developers.
+        There was no communication between any of the developers.
+
+> Now let’s look at the scenario after Git:
+
+        Every developer has an entire copy of the code on their local systems. Any changes made to the source code can be tracked by others.
+        There is regular communication between the developers.
+
+> The Git workflow is divided into three states:
+
+    Working directory - Modify files in your working directory
+    Staging area (Index) - Stage the files and add snapshots of them to your staging area
+    Git directory (Repository) - Perform a commit that stores the snapshots permanently to your Git directory. Checkout any existing version, make changes, stage them and commit.
+
+What is the Git Organization?
+Organization is the company which we used to split up the task easy and it is easy to manage every user permission.
+
+Create an organization?
+1. An organization is pretty easy to create; just click on the "+" icon at top-right of any Github page and select "New Organization" from the menu.
+2. Once we click on the organizatin, there will be a page will calle behind this, Pick a plan for your organization.
+   . Free
+   . Most popular(which is cost service)
+   . Enterprise
+3. Pick the plan which is above from any one of them.
+4. Then it will be go to Set up your organization page, where we have to enter the below parameters.
+   . Organization account name(It can be any name)
+   . Contact Email
+   . This organization belongs to either My personal account or a business or institution.
+   . Verify you account.
+   . click on the Next
+5. then organiztion will get created.
+
+Once we have created an organization, then we can import the repository or create new one based on the requirements.
+once we have created the repositiory we can create teams to give persmission or assign group to user per particular permission on repositories.
+there will be a perople option which can be used to assign organization or remove organization or give manage access i.e, owner or people access manage in this tab.
+
+
+Creating branches:
+we need to enter below commands to creating branches.
+git status # it will tell the status of rempote repository.
+git brance "branch_name" # It will tell us about how to create a branch.
+git branch --list # it will tell about list of the braches in the repository,
+git checkout "brach_name"  #It will be moving from master to branch.
+git brach # list of the braches.
+git checkout -b "branch_name" # it will creating new branch and moving to new branch without typing more commands.
+
+
+
+
