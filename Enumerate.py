@@ -1,4 +1,4 @@
-Python enumerate(): abc
+Python enumerate():
 The enumerate() method add a counter to an iterable and returns it(the enumerate object).
 
 The syntax of enumerate() is:
