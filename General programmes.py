@@ -1,11 +1,14 @@
 #prime number 1- 100:
 
 for i in range(1, 100):
-	for j in range(2, i):
-		if(i%j==0):
-			break
-	else:
-		print(i)'''
+    if(i>1):
+        for j in range(2, i):
+            if(i%j== 0):
+                break
+        else:
+            print(i, end = " ")
+output: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+
 #Write a programme to check wether given number is prime number or not??
 
 num = int(input("Enter the prime number range: "))
